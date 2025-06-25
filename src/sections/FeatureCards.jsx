@@ -65,10 +65,10 @@ const FeatureCards = () => {
                                     loading="lazy"
                                 />
                             </div>
-                            <h3 className="text-white text-2xl font-semibold mt-2">
+                            <h3 className="text-red-200 text-2xl font-semibold mt-2">
                                 {title}
                             </h3>
-                            <p className="text-red-200 text-lg">{desc}</p>
+                            <p className="text-gray-200 text-lg">{desc}</p>
                         </div>
                     ))}
                 </div>

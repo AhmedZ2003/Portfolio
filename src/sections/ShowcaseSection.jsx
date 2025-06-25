@@ -49,7 +49,7 @@ const AppShowcase = () => {
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
       <TitleHeader
-          title="Projects I've Built"
+          title="Featured Projects"
           sub="💻 Turning imagination into reality"
         />
         <div className="showcaselayout mt-15">
@@ -59,10 +59,10 @@ const AppShowcase = () => {
               <img src="/images/popwatch4.png" alt="popwatch" />
             </div>
             <div className="text-content">
-              <h2>
+              <h2 className="text-red-300">
                 PopWatch - Movie Ticket Booking Website
               </h2>
-              <p className="text-red-200 md:text-xl">
+              <p className="text-gray-200 md:text-xl font-secondary">
                 PopWatch is an online platform for booking movie tickets with ease where you can explore the latest blockbusters and timeless classics, check showtimes, and book your favorite seats in just a few clicks.
               </p>
             </div>
@@ -76,14 +76,14 @@ const AppShowcase = () => {
                   alt="Chatbot"
                 />
               </div>
-              <h2>Chat-Bot & Web Scraping for Daraz mobile products</h2>
+              <h2 className="text-gray-300">Chat-Bot & Web Scraping for Daraz mobile products</h2>
             </div>
 
             <div className="project" ref={owlhunt}>
               <div className="image-wrapper bg-[#6892e0]">
                 <img src="/images/owl2.png" alt="Owl"/>
               </div>
-              <h2>Night Hunt (A duck shoot clone game)</h2>
+              <h2 className="text-gray-300">Night Hunt (A duck shoot clone game)</h2>
             </div>
           </div>
         </div>

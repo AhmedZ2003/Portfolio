@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playpen+Sans:wght@100..800&family=Vibur&display=swap");
 @import "tailwindcss";
 
 :root {
   --gradient: radial-gradient(circle, #e5e5e5 0%, #fff 100%);
+  --font-secondary: "Playpen Sans", cursive;
 }
 
 html,
@@ -12,7 +14,7 @@ body {
   background-color: black;
   color: white;
   scroll-behavior: smooth;
-  font-family: "Mona Sans", sans-serif;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 section {
@@ -39,6 +41,11 @@ section {
 }
 
 @layer components {
+
+  .font-secondary {
+    font-family: var(--font-secondary);
+  }
+
   .padding-x {
     @apply px-5 md:px-10;
   }
