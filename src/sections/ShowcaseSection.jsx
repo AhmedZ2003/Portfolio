@@ -50,7 +50,7 @@ const AppShowcase = () => {
       <div className="w-full">
       <TitleHeader
           title="Featured Projects"
-          sub="💻 Turning imagination into reality"
+          sub="🪄 Turning imagination into reality"
         />
         <div className="showcaselayout mt-15">
             {/* LEFT */}
